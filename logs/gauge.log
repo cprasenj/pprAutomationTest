@@ -1,0 +1,1818 @@
+10:19:40.488 Downloading java.zip
+10:19:40.489 Download URL https://downloads.getgauge.io/templates/java.zip
+10:19:40.818 Downloaded to /var/folders/0q/wwz6vzmn2fs3nv5wg2nvpzsr0000gp/T/gauge_temp1459831780488601357/java.zip
+10:19:40.826 Unzipped to => /var/folders/0q/wwz6vzmn2fs3nv5wg2nvpzsr0000gp/T/gauge_temp1459831780488601357
+10:19:40.826 Copying Gauge template java to current directory ...
+10:19:40.831 Successfully initialized the project. Run specifications with "gauge specs/"
+10:19:48.234 No specifications found in speec.
+10:20:53.546 Got a kill message. Killing runner.
+10:49:22.441 No specifications found in spec.
+10:50:38.047 No specifications found in spec.
+10:50:54.339 No specifications found in spec.
+10:51:13.222 Checking updates...
+10:51:17.021 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+10:51:17.031 # Specification Heading
+10:51:17.032 ## Vowel counts in single word
+10:51:17.032 * Vowels in English language are "aeiou".
+10:51:17.043 * The word "gauge" has "3" vowels.
+10:51:17.047 ## Vowel counts in multiple word
+10:51:17.048 * Vowels in English language are "aeiou".
+10:51:17.049 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+10:51:17.051 ## Followings are not vowels
+10:51:17.051 * Vowels in English language are "aeiou".
+10:51:17.154 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:51:17.154 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+10:51:17.154 
+Total time taken: 34ms
+10:51:34.671 Checking updates...
+10:51:37.957 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+10:51:37.964 # Specification Heading
+10:51:37.965 ## Vowel counts in single word
+10:51:37.966 * Vowels in English language are "aeiou".
+10:51:37.977 * The word "gauge" has "3" vowels.
+10:51:37.980 ## Vowel counts in multiple word
+10:51:37.981 * Vowels in English language are "aeiou".
+10:51:37.982 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+10:51:37.984 ## Followings are not vowels
+10:51:37.984 * Vowels in English language are "aeiou".
+10:51:37.985 * Followings are not vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Ghfhf |0          |
+     |Mptr  |0          |
+     |Snpp  |0          |
+     |GoCD  |0          |
+     |Rhythm|0          |
+10:51:38.089 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:51:38.089 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+10:51:38.089 
+Total time taken: 30ms
+10:52:50.148 Checking updates...
+10:52:53.357 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+10:52:53.363 # Specification Heading
+10:52:53.363 ## Vowel counts in single word
+10:52:53.364 * Vowels in English language are "aeiou".
+10:52:53.374 * The word "gauge" has "3" vowels.
+10:52:53.378 ## Vowel counts in multiple word
+10:52:53.378 * Vowels in English language are "aeiou".
+10:52:53.379 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+10:52:53.382 ## Followings are not vowels
+10:52:53.382 * Vowels in English language are "aeiou".
+10:52:53.383 * Followings are not vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Ghfhf |0          |
+     |Mptr  |0          |
+     |Snpp  |0          |
+     |GoCD  |0          |
+     |Rhythm|0          |
+10:52:55.849 
+Failed Step: Followings are not vowels
+10:52:55.850 Error Message: java.lang.AssertionError: expected:<0> but was:<1>
+10:52:55.850 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+org.junit.Assert.assertEquals(Assert.java:631)
+StepImplementation.verifyFollowingsAreNotVowels(StepImplementation.java:54)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+10:52:59.852 Killing runner with PID:47023 forcefully
+10:52:59.852 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:52:59.852 Scenarios:	3 executed	2 passed	1 failed	0 skipped
+10:52:59.852 
+Total time taken: 2.494s
+10:53:26.537 Checking updates...
+10:53:29.946 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+10:53:29.955 # Specification Heading
+10:53:29.956 ## Vowel counts in single word
+10:53:29.958 * Vowels in English language are "aeiou".
+10:53:29.971 * The word "gauge" has "3" vowels.
+10:53:29.975 ## Vowel counts in multiple word
+10:53:29.975 * Vowels in English language are "aeiou".
+10:53:29.976 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+10:53:29.979 ## Followings are not vowels
+10:53:29.979 * Vowels in English language are "aeiou".
+10:53:29.980 * Followings are not vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Ghfhf |0          |
+     |Mptr  |0          |
+     |Snpp  |0          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+10:53:31.634 
+Failed Step: Followings are not vowels
+10:53:31.634 Error Message: java.lang.AssertionError: expected:<0> but was:<1>
+10:53:31.634 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+org.junit.Assert.assertEquals(Assert.java:631)
+StepImplementation.verifyFollowingsAreNotVowels(StepImplementation.java:54)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+10:53:34.456 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:53:34.456 Scenarios:	3 executed	2 passed	1 failed	0 skipped
+10:53:34.456 
+Total time taken: 1.689s
+10:53:46.692 Checking updates...
+10:53:49.848 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+10:53:49.855 # Specification Heading
+10:53:49.855 ## Vowel counts in single word
+10:53:49.856 * Vowels in English language are "aeiou".
+10:53:49.868 * The word "gauge" has "3" vowels.
+10:53:49.873 ## Vowel counts in multiple word
+10:53:49.873 * Vowels in English language are "aeiou".
+10:53:49.874 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+10:53:49.876 ## Followings are not vowels
+10:53:49.877 * Vowels in English language are "aeiou".
+10:53:49.878 * Followings are not vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Ghfhf |0          |
+     |Mptr  |0          |
+     |Snpp  |0          |
+     |GpCD  |0          |
+     |Rhythm|0          |
+10:53:49.980 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:53:49.980 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+10:53:49.980 
+Total time taken: 31ms
+11:45:41.425 Checking updates...
+11:45:44.839 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+11:45:45.665 Error Message: java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+11:45:45.665 Stacktrace: 
+org.openqa.selenium.firefox.Preferences.readDefaultPreferences(Preferences.java:96)
+org.openqa.selenium.firefox.Preferences.<init>(Preferences.java:66)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:88)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:78)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:67)
+org.openqa.selenium.firefox.FirefoxDriver.getProfile(FirefoxDriver.java:288)
+org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:264)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+DriverFactory.Setup(DriverFactory.java:36)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:45:45.944 Error Message: java.lang.NullPointerException
+11:45:45.944 Stacktrace: 
+DriverFactory.TearDown(DriverFactory.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:45:46.849 Specifications:	0 executed	0 passed	0 failed	0 skipped
+11:45:46.849 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+11:45:46.849 
+Total time taken: 1.105s
+11:47:00.995 Checking updates...
+11:47:03.969 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+11:47:04.543 Error Message: java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+11:47:04.544 Stacktrace: 
+io.github.bonigarcia.wdm.BrowserManager.<clinit>(BrowserManager.java:46)
+DriverFactory.Setup(DriverFactory.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:47:04.891 Error Message: java.lang.NullPointerException
+11:47:04.891 Stacktrace: 
+DriverFactory.TearDown(DriverFactory.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:47:05.899 Specifications:	0 executed	0 passed	0 failed	0 skipped
+11:47:05.899 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+11:47:05.899 
+Total time taken: 922ms
+11:47:53.572 Checking updates...
+11:48:01.607 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+11:48:02.348 Error Message: java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+11:48:02.348 Stacktrace: 
+io.github.bonigarcia.wdm.BrowserManager.<clinit>(BrowserManager.java:46)
+DriverFactory.Setup(DriverFactory.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:48:02.690 Error Message: java.lang.NullPointerException
+11:48:02.691 Stacktrace: 
+DriverFactory.TearDown(DriverFactory.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:48:03.595 Specifications:	0 executed	0 passed	0 failed	0 skipped
+11:48:03.595 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+11:48:03.595 
+Total time taken: 1.084s
+11:48:12.181 Checking updates...
+11:48:20.100 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+11:48:44.590 Error Message: java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+11:48:44.590 Stacktrace: 
+io.github.bonigarcia.wdm.BrowserManager.<clinit>(BrowserManager.java:46)
+DriverFactory.Setup(DriverFactory.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:48:44.914 Error Message: java.lang.NullPointerException
+11:48:44.915 Stacktrace: 
+DriverFactory.TearDown(DriverFactory.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:48:48.431 Specifications:	0 executed	0 passed	0 failed	0 skipped
+11:48:48.432 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+11:48:48.432 
+Total time taken: 24.814s
+11:49:53.520 Checking updates...
+11:50:01.710 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+11:51:02.853 Error Message: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+11:51:02.860 Stacktrace: 
+com.google.common.base.Preconditions.checkState(Preconditions.java:177)
+org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+DriverFactory.Setup(DriverFactory.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:51:35.398 Error Message: java.lang.NullPointerException
+11:51:35.400 Stacktrace: 
+DriverFactory.TearDown(DriverFactory.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:51:36.607 Specifications:	0 executed	0 passed	0 failed	0 skipped
+11:51:36.607 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+11:51:36.607 
+Total time taken: 1m33.69s
+11:52:32.996 Checking updates...
+11:52:36.007 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+11:52:36.666 Error Message: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+11:52:36.666 Stacktrace: 
+com.google.common.base.Preconditions.checkState(Preconditions.java:177)
+org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+DriverFactory.Setup(DriverFactory.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:52:39.291 Specifications:	0 executed	0 passed	0 failed	0 skipped
+11:52:39.291 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+11:52:39.291 
+Total time taken: 659ms
+11:53:25.133 Checking updates...
+11:53:28.621 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+11:53:29.422 Error Message: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+11:53:29.422 Stacktrace: 
+com.google.common.base.Preconditions.checkState(Preconditions.java:177)
+org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+DriverFactory.Setup(DriverFactory.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:53:32.143 Specifications:	0 executed	0 passed	0 failed	0 skipped
+11:53:32.143 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+11:53:32.143 
+Total time taken: 801ms
+11:56:39.547 Checking updates...
+11:56:42.741 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+11:56:43.483 Error Message: java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+11:56:43.483 Stacktrace: 
+io.github.bonigarcia.wdm.BrowserManager.<clinit>(BrowserManager.java:46)
+DriverFactory.Setup(DriverFactory.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:56:47.484 Killing runner with PID:52428 forcefully
+11:56:47.484 Specifications:	0 executed	0 passed	0 failed	0 skipped
+11:56:47.492 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+11:56:47.492 
+Total time taken: 742ms
+11:58:11.610 Checking updates...
+11:58:14.952 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+11:58:15.692 Error Message: java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+11:58:15.692 Stacktrace: 
+io.github.bonigarcia.wdm.BrowserManager.<clinit>(BrowserManager.java:46)
+DriverFactory.Setup(DriverFactory.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:58:19.695 Killing runner with PID:52557 forcefully
+11:58:19.695 Specifications:	0 executed	0 passed	0 failed	0 skipped
+11:58:19.695 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+11:58:19.695 
+Total time taken: 741ms
+11:58:59.919 Checking updates...
+11:59:02.794 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+11:59:03.381 Error Message: java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+11:59:03.381 Stacktrace: 
+io.github.bonigarcia.wdm.BrowserManager.<clinit>(BrowserManager.java:46)
+DriverFactory.Setup(DriverFactory.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:59:04.894 Specifications:	0 executed	0 passed	0 failed	0 skipped
+11:59:04.894 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+11:59:04.894 
+Total time taken: 587ms
+12:09:50.187 Checking updates...
+12:09:52.299 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+12:09:53.091 Error Message: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+12:09:53.091 Stacktrace: 
+com.google.common.base.Preconditions.checkState(Preconditions.java:177)
+org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+DriverFactory.Setup(DriverFactory.java:21)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+12:09:55.610 Specifications:	0 executed	0 passed	0 failed	0 skipped
+12:09:55.611 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+12:09:55.611 
+Total time taken: 792ms
+12:11:07.270 Checking updates...
+12:11:09.951 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+12:11:10.569 Error Message: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+12:11:10.570 Stacktrace: 
+com.google.common.base.Preconditions.checkState(Preconditions.java:177)
+org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+DriverFactory.Setup(DriverFactory.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+12:11:11.980 Specifications:	0 executed	0 passed	0 failed	0 skipped
+12:11:11.980 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+12:11:11.980 
+Total time taken: 619ms
+12:12:13.656 Checking updates...
+12:12:16.390 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+12:12:16.987 Error Message: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+12:12:16.989 Stacktrace: 
+com.google.common.base.Preconditions.checkState(Preconditions.java:177)
+org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+DriverFactory.Setup(DriverFactory.java:18)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+12:12:18.402 Specifications:	0 executed	0 passed	0 failed	0 skipped
+12:12:18.402 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+12:12:18.402 
+Total time taken: 600ms
+12:14:34.500 Checking updates...
+12:14:37.671 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+12:14:38.462 Error Message: java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+12:14:38.462 Stacktrace: 
+org.openqa.selenium.firefox.Preferences.readDefaultPreferences(Preferences.java:96)
+org.openqa.selenium.firefox.Preferences.<init>(Preferences.java:66)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:88)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:78)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:67)
+org.openqa.selenium.firefox.FirefoxDriver.getProfile(FirefoxDriver.java:288)
+org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:264)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+DriverFactory.Setup(DriverFactory.java:19)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+12:14:41.782 Specifications:	0 executed	0 passed	0 failed	0 skipped
+12:14:41.783 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+12:14:41.783 
+Total time taken: 791ms
+12:17:35.619 Checking updates...
+12:17:38.720 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+12:17:39.568 Error Message: java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+12:17:39.569 Stacktrace: 
+org.openqa.selenium.firefox.Preferences.readDefaultPreferences(Preferences.java:96)
+org.openqa.selenium.firefox.Preferences.<init>(Preferences.java:66)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:88)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:78)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:67)
+org.openqa.selenium.firefox.FirefoxDriver.getProfile(FirefoxDriver.java:288)
+org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:264)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+DriverFactory.Setup(DriverFactory.java:19)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+12:17:40.677 Specifications:	0 executed	0 passed	0 failed	0 skipped
+12:17:40.677 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+12:17:40.677 
+Total time taken: 849ms
+12:19:01.052 Checking updates...
+12:19:04.253 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+12:19:04.942 Error Message: java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+12:19:04.942 Stacktrace: 
+org.openqa.selenium.firefox.Preferences.readDefaultPreferences(Preferences.java:96)
+org.openqa.selenium.firefox.Preferences.<init>(Preferences.java:66)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:88)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:78)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:67)
+org.openqa.selenium.firefox.FirefoxDriver.getProfile(FirefoxDriver.java:288)
+org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:264)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+DriverFactory.Setup(DriverFactory.java:19)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+12:19:07.464 Specifications:	0 executed	0 passed	0 failed	0 skipped
+12:19:07.464 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+12:19:07.464 
+Total time taken: 690ms
+12:19:25.281 Checking updates...
+12:19:28.067 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+12:19:28.660 Error Message: java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+12:19:28.660 Stacktrace: 
+org.openqa.selenium.firefox.Preferences.readDefaultPreferences(Preferences.java:96)
+org.openqa.selenium.firefox.Preferences.<init>(Preferences.java:66)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:88)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:78)
+org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:67)
+org.openqa.selenium.firefox.FirefoxDriver.getProfile(FirefoxDriver.java:288)
+org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:264)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+DriverFactory.Setup(DriverFactory.java:19)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:98)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:84)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:41)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:26)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+12:19:31.377 Specifications:	0 executed	0 passed	0 failed	0 skipped
+12:19:31.377 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+12:19:31.377 
+Total time taken: 594ms
+13:08:59.980 Checking updates...
+13:09:03.975 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:09:08.114 # Customers
+13:09:08.115 ## Search for a customer
+13:09:08.116 * On the Dashboard page
+13:09:08.767 
+Failed Step: On the Dashboard page
+13:09:08.767 Error Message: java.lang.NullPointerException: null value in entry: url=null
+13:09:08.767 Stacktrace: 
+com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+DashboardSpec.goToDashBoard(DashboardSpec.java:13)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:09:11.562 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:09:11.562 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:09:11.562 
+Total time taken: 4.867s
+13:10:17.233 Checking updates...
+13:10:20.517 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:10:23.028 # Customers
+13:10:23.029 ## Search for a customer
+13:10:23.029 * On the Dashboard page
+13:10:26.568 * The team "Vkm" is listed
+13:10:26.976 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:10:26.976 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:10:26.976 
+Total time taken: 6.157s
+13:25:50.818 Checking updates...
+13:25:54.660 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:25:58.694 # Customers
+13:25:58.695 ## Search for a customer
+13:25:58.696 * On the Dashboard page
+13:26:02.220 * The team "Vkm" is listed
+13:26:04.459 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:26:04.459 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:26:04.459 
+Total time taken: 9.597s
+13:26:20.428 Checking updates...
+13:26:23.606 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:26:26.376 # Customers
+13:26:26.378 ## Search for a customer
+13:26:26.378 * On the Dashboard page
+13:26:29.335 * The team "Vkm" is listed
+13:26:30.347 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:26:30.348 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:26:30.348 
+Total time taken: 6.54s
+13:30:16.719 Checking updates...
+13:30:20.402 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:30:24.120 # Customers
+13:30:24.122 ## Search for a customer
+13:30:24.123 * On the Dashboard page
+13:30:26.849 * The team "Vkm" is listed
+13:30:29.966 
+Failed Step: The team "Vkm" is listed
+13:30:29.967 Error Message: java.lang.NullPointerException
+13:30:29.967 Stacktrace: 
+DashboardPage.verifyTeamrListed(DashboardPage.java:22)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:30:32.069 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:30:32.069 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:30:32.069 
+Total time taken: 9.652s
+13:31:50.985 Checking updates...
+13:31:57.159 Checking updates...
+13:32:05.628 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:32:08.754 # Customers
+13:32:08.755 ## Search for a customer
+13:32:08.756 * On the Dashboard page
+13:32:10.735 * The team "Vkm" is listed
+13:32:41.035 
+Failed Step: The team "Vkm" is listed
+13:32:41.035 Error Message: java.lang.NullPointerException
+13:32:41.035 Stacktrace: 
+DashboardPage.verifyTeamrListed(DashboardPage.java:22)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:32:43.145 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:32:43.145 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:32:43.145 
+Total time taken: 35.503s
+13:32:55.470 Checking updates...
+13:33:04.029 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:33:07.782 # Customers
+13:33:07.783 ## Search for a customer
+13:33:07.784 * On the Dashboard page
+13:33:10.261 * The team "Vkm" is listed
+13:37:53.248 
+Failed Step: The team "Vkm" is listed
+13:37:53.248 Error Message: java.lang.NullPointerException
+13:37:53.248 Stacktrace: 
+DashboardPage.verifyTeamrListed(DashboardPage.java:22)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:37:55.389 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:37:55.389 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:37:55.389 
+Total time taken: 4m49.343s
+13:44:56.701 Checking updates...
+13:45:00.764 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:45:04.949 # Customers
+13:45:04.951 ## Search for a customer
+13:45:04.952 * On the Dashboard page
+13:45:07.547 * The team "Ninja" is listed
+13:45:12.920 
+Failed Step: The team "Ninja" is listed
+13:45:12.921 Error Message: java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+13:45:12.921 Stacktrace: 
+java.util.ArrayList.rangeCheck(ArrayList.java:635)
+java.util.ArrayList.get(ArrayList.java:411)
+DashboardPage.verifyTeamrListed(DashboardPage.java:26)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:45:16.441 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:45:16.442 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:45:16.442 
+Total time taken: 12.248s
+13:45:40.888 Checking updates...
+13:45:44.554 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:45:48.598 # Customers
+13:45:48.601 ## Search for a customer
+13:45:48.603 * On the Dashboard page
+13:45:51.396 * The team "Ninja" is listed
+13:45:56.152 
+Failed Step: The team "Ninja" is listed
+13:45:56.152 Error Message: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+13:45:56.152 Stacktrace: 
+java.util.ArrayList.rangeCheck(ArrayList.java:635)
+java.util.ArrayList.get(ArrayList.java:411)
+DashboardPage.verifyTeamrListed(DashboardPage.java:26)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:45:58.706 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:45:58.706 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:45:58.706 
+Total time taken: 11.732s
+13:47:02.675 Checking updates...
+13:47:06.624 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:47:10.426 # Customers
+13:47:10.427 ## Search for a customer
+13:47:10.428 * On the Dashboard page
+13:47:12.487 * The team "Ninja" is listed
+13:47:17.323 
+Failed Step: The team "Ninja" is listed
+13:47:17.324 Error Message: org.openqa.selenium.InvalidSelectorException: The given selector bg-grey padding10 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'INcprasenj.local', ip: '192.168.23.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+*** Element info: {Using=class name, value=bg-grey padding10}
+Session ID: 4d8fbadb-eed5-fb42-926c-634e9fc7bb20
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.1.1}]
+13:47:17.324 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:388)
+org.openqa.selenium.remote.RemoteWebDriver.findElementsByClassName(RemoteWebDriver.java:485)
+org.openqa.selenium.By$ByClassName.findElements(By.java:383)
+org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:351)
+DashboardPage.verifyTeamrListed(DashboardPage.java:26)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:47:19.571 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:47:19.571 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:47:19.571 
+Total time taken: 10.83s
+13:54:45.562 Checking updates...
+13:54:49.874 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:54:53.562 # Customers
+13:54:53.564 ## Search for a customer
+13:54:53.565 * On the Dashboard page
+13:54:56.391 * The team "Ninja" is listed
+13:55:01.960 
+Failed Step: The team "Ninja" is listed
+13:55:01.961 Error Message: org.openqa.selenium.InvalidSelectorException: The given selector bg-grey padding10 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 40 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'INcprasenj.local', ip: '192.168.23.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+*** Element info: {Using=class name, value=bg-grey padding10}
+Session ID: 55da9579-824c-1049-b5c4-9bd55d543499
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.1.1}]
+13:55:01.961 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:388)
+org.openqa.selenium.remote.RemoteWebDriver.findElementsByClassName(RemoteWebDriver.java:485)
+org.openqa.selenium.By$ByClassName.findElements(By.java:383)
+org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:351)
+DashboardPage.verifyTeamrListed(DashboardPage.java:26)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:55:06.056 Killing runner with PID:59651 forcefully
+13:55:06.056 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:55:06.056 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:55:06.056 
+Total time taken: 12.182s
+13:55:49.847 Checking updates...
+13:55:53.956 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:55:57.663 # Customers
+13:55:57.664 ## Search for a customer
+13:55:57.665 * On the Dashboard page
+13:56:00.022 * The team "Ninja" is listed
+13:56:04.949 
+Failed Step: The team "Ninja" is listed
+13:56:04.950 Error Message: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+13:56:04.950 Stacktrace: 
+java.util.ArrayList.rangeCheck(ArrayList.java:635)
+java.util.ArrayList.get(ArrayList.java:411)
+DashboardPage.verifyTeamrListed(DashboardPage.java:26)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:56:09.042 Killing runner with PID:59753 forcefully
+13:56:09.042 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:56:09.042 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:56:09.042 
+Total time taken: 11.085s
+13:57:12.430 Checking updates...
+13:57:15.686 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:57:18.349 # Customers
+13:57:18.350 ## Search for a customer
+13:57:18.350 * On the Dashboard page
+13:57:20.425 * The team "Ninja" is listed
+13:57:24.290 
+Failed Step: The team "Ninja" is listed
+13:57:24.290 Error Message: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"Ninja"}
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'INcprasenj.local', ip: '192.168.23.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+*** Element info: {Using=css selector, value=Ninja}
+Session ID: c9a88826-bcc6-1a4f-b0b8-41bcd867e666
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.1.1}]
+13:57:24.290 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+DashboardPage.verifyTeamrListed(DashboardPage.java:26)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:57:28.380 Killing runner with PID:59864 forcefully
+13:57:28.380 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:57:28.380 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:57:28.380 
+Total time taken: 8.693s
+13:58:42.520 Checking updates...
+13:58:46.006 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+13:58:48.441 # Customers
+13:58:48.443 ## Search for a customer
+13:58:48.443 * On the Dashboard page
+13:58:50.326 * The team "Ninja" is listed
+13:58:54.185 
+Failed Step: The team "Ninja" is listed
+13:58:54.185 Error Message: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"Ninja"}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'INcprasenj.local', ip: '192.168.23.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+*** Element info: {Using=link text, value=Ninja}
+Session ID: 31f431dd-b1d0-8c4b-9722-5cd756b8b624
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.1.1}]
+13:58:54.185 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+DashboardPage.verifyTeamrListed(DashboardPage.java:26)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:58:56.433 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:58:56.433 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:58:56.433 
+Total time taken: 8.31s
+14:01:14.108 Checking updates...
+14:01:17.899 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:01:20.836 # Customers
+14:01:20.837 ## Search for a customer
+14:01:20.837 * On the Dashboard page
+14:01:22.876 * The team "Ninja" is listed
+14:01:26.954 
+Failed Step: The team "Ninja" is listed
+14:01:26.954 Error Message: org.openqa.selenium.InvalidSelectorException: The given selector bg-grey padding10 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'INcprasenj.local', ip: '192.168.23.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+*** Element info: {Using=class name, value=bg-grey padding10}
+Session ID: ad0c945d-cdd2-cd4a-ae2f-96dfc2b8e167
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.1.1}]
+14:01:26.954 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)
+org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+DashboardPage.verifyTeamrListed(DashboardPage.java:27)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+14:01:31.085 Killing runner with PID:60216 forcefully
+14:01:31.085 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:01:31.085 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+14:01:31.085 
+Total time taken: 9.185s
+14:06:08.773 Checking updates...
+14:06:12.471 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:06:15.797 # Customers
+14:06:15.798 ## Search for a customer
+14:06:15.799 * On the Dashboard page
+14:06:17.952 * The team "Ninja" is listed
+14:06:22.719 
+Failed Step: The team "Ninja" is listed
+14:06:22.719 Error Message: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"tag name","selector":"a"}
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'INcprasenj.local', ip: '192.168.23.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+*** Element info: {Using=tag name, value=a}
+Session ID: 09948ca7-bb3d-5242-8990-17a2fe13582c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.1.1}]
+14:06:22.719 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByTagName(RemoteWebDriver.java:445)
+org.openqa.selenium.By$ByTagName.findElement(By.java:334)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+DashboardPage.verifyTeamrListed(DashboardPage.java:30)
+DashboardSpec.findTheTeam(DashboardSpec.java:20)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+14:06:26.331 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:06:26.331 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+14:06:26.331 
+Total time taken: 10.335s
+14:11:57.851 Checking updates...
+14:12:01.693 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:12:04.121 # Customers
+14:12:04.122 ## Search for a customer
+14:12:04.122 * On the Dashboard page
+14:12:06.233 * The team "Ninja" is listed
+14:12:09.499 
+Failed Step: The team "Ninja" is listed
+14:12:09.499 Error Message: java.lang.ClassCastException: org.openqa.selenium.remote.RemoteWebElement cannot be cast to java.util.List
+14:12:09.499 Stacktrace: 
+DashboardSpec.findTheTeam(DashboardSpec.java:25)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+14:12:11.611 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:12:11.611 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+14:12:11.611 
+Total time taken: 7.903s
+14:12:36.039 Checking updates...
+14:12:39.531 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:12:41.851 # Customers
+14:12:41.852 ## Search for a customer
+14:12:41.853 * On the Dashboard page
+14:12:43.737 * The team "Ninja" is listed
+14:12:46.592 
+Failed Step: The team "Ninja" is listed
+14:12:46.593 Error Message: java.lang.AssertionError: expected:<2> but was:<25>
+14:12:46.593 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+org.junit.Assert.assertEquals(Assert.java:631)
+DashboardSpec.findTheTeam(DashboardSpec.java:26)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+14:12:49.810 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:12:49.810 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+14:12:49.810 
+Total time taken: 7.155s
+14:13:00.344 Checking updates...
+14:13:03.708 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:13:05.888 # Customers
+14:13:05.889 ## Search for a customer
+14:13:05.890 * On the Dashboard page
+14:13:07.634 * The team "Ninja" is listed
+14:13:09.129 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:13:09.129 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:13:09.129 
+Total time taken: 5.219s
+14:16:37.554 Checking updates...
+14:16:41.014 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:16:43.257 # Customers
+14:16:43.258 ## Search for a customer
+14:16:43.258 * On the Dashboard page
+14:16:45.115 * The team "Ninja" is listed
+14:16:46.418 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:16:46.418 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:16:46.419 
+Total time taken: 5.202s
+14:20:20.454 Checking updates...
+14:20:24.318 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:20:27.877 # Customers
+14:20:27.878 ## Search for a team
+14:20:27.879 * On the Dashboard page
+14:20:29.747 * The team "Ninja" is listed
+14:20:30.756 ## Goto a particular teams Page
+14:20:30.756 * On the Dashboard page
+14:20:31.102 * Click on "Ninja" team link
+14:20:35.113 
+Failed Step: Click on "Ninja" team link
+14:20:35.114 Error Message: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 314 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'INcprasenj.local', ip: '10.4.21.39', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+Session ID: cd04e01a-a9e6-4742-9d9b-8f4823a4d1f4
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.1.1}]
+14:20:35.114 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)
+DashboardSpec.goToATeamPage(DashboardSpec.java:43)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+14:20:37.269 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:20:37.269 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+14:20:37.269 
+Total time taken: 10.937s
+14:22:10.287 Checking updates...
+14:22:14.215 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:22:17.275 # Customers
+14:22:17.276 ## Search for a team
+14:22:17.276 * On the Dashboard page
+14:22:19.236 * The team "Ninja" is listed
+14:22:20.342 ## Goto a particular teams Page
+14:22:20.343 * On the Dashboard page
+14:22:20.695 * Click on "Ninja" team link
+14:22:22.076 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:22:22.076 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+14:22:22.076 
+Total time taken: 7.759s
+14:22:31.178 Checking updates...
+14:22:34.497 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:22:36.641 # Customers
+14:22:36.641 ## Search for a team
+14:22:36.642 * On the Dashboard page
+14:22:38.312 * The team "Ninja" is listed
+14:22:39.337 ## Goto a particular teams Page
+14:22:39.337 * On the Dashboard page
+14:22:39.807 * Click on "Ninja" team link
+14:22:41.303 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:22:41.303 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+14:22:41.303 
+Total time taken: 6.705s
+14:29:54.347 Checking updates...
+14:29:58.311 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:30:02.004 # Customers
+14:30:02.007 ## Search for a team
+14:30:02.009 * On the Dashboard page
+14:30:05.083 * The team "Ninja" is listed
+14:30:09.713 
+Failed Step: The team "Ninja" is listed
+14:30:09.714 Error Message: java.lang.AssertionError: expected:<25> but was:<27>
+14:30:09.714 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+org.junit.Assert.assertEquals(Assert.java:631)
+DashboardSpec.findTheTeam(DashboardSpec.java:29)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+14:30:09.716 ## Goto a particular teams Page
+14:30:09.717 * On the Dashboard page
+14:30:10.367 * Click on "Ninja" team link
+14:30:10.910 ## List all the team members of the team
+14:30:10.910 * On the Dashboard page
+14:30:10.934 * click on team for "Vkm" to view all members of that team
+14:30:15.235 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:30:15.235 Scenarios:	3 executed	2 passed	1 failed	0 skipped
+14:30:15.235 
+Total time taken: 13.796s
+14:30:31.241 Checking updates...
+14:30:35.307 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:30:39.115 # Customers
+14:30:39.117 ## Search for a team
+14:30:39.118 * On the Dashboard page
+14:30:41.650 * The team "Ninja" is listed
+14:30:42.678 ## Goto a particular teams Page
+14:30:42.678 * On the Dashboard page
+14:30:43.047 * Click on "Ninja" team link
+14:30:44.025 ## List all the team members of the team
+14:30:44.025 * On the Dashboard page
+14:30:44.041 * click on team for "Vkm" to view all members of that team
+14:30:45.773 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:30:45.774 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+14:30:45.774 
+Total time taken: 10.162s
+15:06:17.724 Got a kill message. Killing runner.
+15:06:21.729 Killing runner with PID:65560 forcefully
+15:55:10.114 Got a kill message. Killing runner.
+15:55:14.119 Killing runner with PID:69659 forcefully
+20:26:00.653 Got a kill message. Killing runner.
+20:26:04.656 Killing runner with PID:78232 forcefully
+20:35:22.151 Checking updates...
+20:35:27.434 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+20:35:32.202 # Customers
+20:35:32.202 ## Search for a team
+20:35:32.203 * On the Dashboard page
+20:35:38.938 * The team "Ninja" is listed
+20:35:40.206 ## Goto a particular teams Page
+20:35:40.206 * On the Dashboard page
+20:35:40.670 * Click on "Ninja" team link
+20:35:42.631 ## List all the team members of the team
+20:35:42.632 * On the Dashboard page
+20:35:42.648 * click on team for "Vkm" to view all members of that team
+20:35:45.030 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:35:45.031 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+20:35:45.031 
+Total time taken: 17.396s
+20:38:57.835 Checking updates...
+20:39:04.443 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+20:39:10.399 # Customers
+20:39:10.400 ## Search for a team
+20:39:10.401 * On the Dashboard page
+20:39:13.609 * The team "Ninja" is listed
+20:39:15.041 ## Goto a particular teams Page
+20:39:15.042 * On the Dashboard page
+20:39:15.601 * Click on "Ninja" team link
+20:39:16.739 ## List all the team members of the team
+20:39:16.739 * On the Dashboard page
+20:39:16.763 * click on team for "Vkm" to view all members of that team
+20:39:27.073 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:39:27.073 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+20:39:27.073 
+Total time taken: 22.43s
+20:39:44.944 Checking updates...
+20:39:49.835 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+20:39:53.446 # Customers
+20:39:53.447 ## Search for a team
+20:39:53.448 * On the Dashboard page
+20:39:55.630 * The team "Ninja" is listed
+20:39:56.954 ## Goto a particular teams Page
+20:39:56.954 * On the Dashboard page
+20:39:57.490 * Click on "Ninja" team link
+20:39:58.419 ## List all the team members of the team
+20:39:58.419 * On the Dashboard page
+20:39:58.439 * click on team for "Vkm" to view all members of that team
+20:40:06.258 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:40:06.259 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+20:40:06.259 
+Total time taken: 16.221s
+20:41:01.366 Checking updates...
+20:41:06.357 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+20:41:10.259 # Customers
+20:41:10.260 ## Search for a team
+20:41:10.260 * On the Dashboard page
+20:41:12.534 * The team "Ninja" is listed
+20:41:13.816 ## Goto a particular teams Page
+20:41:13.816 * On the Dashboard page
+20:41:14.351 * Click on "Ninja" team link
+20:41:14.888 ## List all the team members of the team
+20:41:14.889 * On the Dashboard page
+20:41:14.918 * click on team for "VKM" to view all members of that team
+20:41:21.865 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:41:21.865 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+20:41:21.865 
+Total time taken: 15.306s
+20:41:34.103 Checking updates...
+20:41:38.414 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+20:41:41.179 # Customers
+20:41:41.180 ## Search for a team
+20:41:41.181 * On the Dashboard page
+20:41:43.032 * The team "Ninja" is listed
+20:41:44.152 ## Goto a particular teams Page
+20:41:44.153 * On the Dashboard page
+20:41:44.565 * Click on "Ninja" team link
+20:41:45.599 ## List all the team members of the team
+20:41:45.600 * On the Dashboard page
+20:41:45.620 * click on team for "VKM" to view all members of that team
+20:41:52.570 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:41:52.570 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+20:41:52.570 
+Total time taken: 13.954s
+20:43:31.555 Checking updates...
+20:43:36.199 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+20:43:39.530 # Customers
+20:43:39.532 ## Search for a team
+20:43:39.534 * On the Dashboard page
+20:43:43.375 * The team "Ninja" is listed
+20:43:44.772 ## Goto a particular teams Page
+20:43:44.772 * On the Dashboard page
+20:43:45.276 * Click on "Ninja" team link
+20:43:45.846 ## List all the team members of the team
+20:43:45.848 * On the Dashboard page
+20:43:45.868 * click on team for "VKM" to view all members of that team
+20:43:50.500 
+Failed Step: click on team for "VKM" to view all members of that team
+20:43:50.500 Error Message: junit.framework.AssertionFailedError
+20:43:50.500 Stacktrace: 
+junit.framework.Assert.fail(Assert.java:55)
+junit.framework.Assert.assertTrue(Assert.java:22)
+junit.framework.Assert.assertTrue(Assert.java:31)
+junit.framework.TestCase.assertTrue(TestCase.java:201)
+DashboardSpec.listAllTeamMembersForAGivenTeam(DashboardSpec.java:60)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:43:52.407 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:43:52.407 Scenarios:	3 executed	2 passed	1 failed	0 skipped
+20:43:52.408 
+Total time taken: 14.408s
+20:45:28.343 Checking updates...
+20:45:32.859 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+20:45:36.381 # Customers
+20:45:36.382 ## Search for a team
+20:45:36.382 * On the Dashboard page
+20:45:38.598 * The team "Ninja" is listed
+20:45:39.863 ## Goto a particular teams Page
+20:45:39.863 * On the Dashboard page
+20:45:40.347 * Click on "Ninja" team link
+20:45:41.394 ## List all the team members of the team
+20:45:41.395 * On the Dashboard page
+20:45:41.416 * click on team for "Ninja" to view all members of that team
+20:45:46.410 
+Failed Step: click on team for "Ninja" to view all members of that team
+20:45:46.410 Error Message: junit.framework.AssertionFailedError
+20:45:46.410 Stacktrace: 
+junit.framework.Assert.fail(Assert.java:55)
+junit.framework.Assert.assertTrue(Assert.java:22)
+junit.framework.Assert.assertTrue(Assert.java:31)
+junit.framework.TestCase.assertTrue(TestCase.java:201)
+DashboardSpec.listAllTeamMembersForAGivenTeam(DashboardSpec.java:60)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:45:48.264 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:45:48.264 Scenarios:	3 executed	2 passed	1 failed	0 skipped
+20:45:48.264 
+Total time taken: 13.693s
+20:46:27.841 Checking updates...
+20:46:32.314 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+20:46:35.122 # Customers
+20:46:35.123 ## Search for a team
+20:46:35.124 * On the Dashboard page
+20:46:37.961 * The team "Ninja" is listed
+20:46:39.238 ## Goto a particular teams Page
+20:46:39.239 * On the Dashboard page
+20:46:39.836 * Click on "Ninja" team link
+20:46:40.803 ## List all the team members of the team
+20:46:40.805 * On the Dashboard page
+20:46:40.826 * click on team for "Ninja" to view all members of that team
+20:46:45.530 
+Failed Step: click on team for "Ninja" to view all members of that team
+20:46:45.530 Error Message: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 418 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'INcprasenj.local', ip: '192.168.23.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+Session ID: 9f5f6ef3-31e9-a947-8f74-98730ad740f3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.1.1}]
+20:46:45.530 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)
+DashboardSpec.listAllTeamMembersForAGivenTeam(DashboardSpec.java:64)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:46:47.388 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:46:47.388 Scenarios:	3 executed	2 passed	1 failed	0 skipped
+20:46:47.388 
+Total time taken: 13.36s
+20:57:40.133 Checking updates...
+20:57:42.775 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+20:57:46.093 # Customers
+20:57:46.094 ## Search for a team
+20:57:46.094 * On the Dashboard page
+20:57:47.868 * The team "Ninja" is listed
+20:57:49.386 ## Goto a particular teams Page
+20:57:49.387 * On the Dashboard page
+20:57:49.835 * Click on "Ninja" team link
+20:57:50.747 ## List all the team members of the team
+20:57:50.748 * On the Dashboard page
+20:57:50.761 * click on team for "Ninja" to view all members of that team
+20:57:54.986 
+Failed Step: click on team for "Ninja" to view all members of that team
+20:57:54.986 Error Message: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 312 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'INcprasenj.local', ip: '192.168.23.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+Session ID: 1ad2542c-50ec-bc4e-ad48-2ac13cd4cf6d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.1.1}]
+20:57:54.986 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)
+DashboardSpec.listAllTeamMembersForAGivenTeam(DashboardSpec.java:64)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:606)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:94)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:57:57.194 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:57:57.194 Scenarios:	3 executed	2 passed	1 failed	0 skipped
+20:57:57.194 
+Total time taken: 12.305s
+20:59:45.897 Checking updates...
+20:59:49.966 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+20:59:52.984 # Customers
+20:59:52.985 ## Search for a team
+20:59:52.986 * On the Dashboard page
+20:59:54.981 * The team "Ninja" is listed
+20:59:56.406 ## Goto a particular teams Page
+20:59:56.406 * On the Dashboard page
+20:59:56.751 * Click on "Ninja" team link
+20:59:57.568 ## List all the team members of the team
+20:59:57.569 * On the Dashboard page
+20:59:57.583 * click on team for "Ninja" to view all members of that team
+21:00:05.592 Specifications:	1 executed	1 passed	0 failed	0 skipped
+21:00:05.592 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+21:00:05.592 
+Total time taken: 15.526s
+21:09:13.265 Checking updates...
+21:09:23.192 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+21:09:27.300 # Customers
+21:09:27.301 ## Search for a team
+21:09:27.301 * On the Dashboard page
+21:09:29.464 * The team "Ninja" is listed
+21:09:30.798 ## Goto a particular teams Page
+21:09:30.801 * On the Dashboard page
+21:09:31.292 * Click on "Ninja" team link
+21:09:31.819 ## List all the team members of the team
+21:09:31.820 * On the Dashboard page
+21:09:31.841 * click on team for "Ninja" to view all members of that team
+21:11:30.383 Specifications:	1 executed	1 passed	0 failed	0 skipped
+21:11:30.383 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+21:11:30.383 
+Total time taken: 2m6.688s
+21:14:05.219 Checking updates...
+21:14:08.908 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+21:14:12.310 # Customers
+21:14:12.311 ## Search for a team
+21:14:12.312 * On the Dashboard page
+21:14:14.675 * The team "Ninja" is listed
+21:14:16.036 ## Goto a particular teams Page
+21:14:16.036 * On the Dashboard page
+21:14:16.427 * Click on "Ninja" team link
+21:14:17.267 ## List all the team members of the team
+21:14:17.269 * On the Dashboard page
+21:14:17.284 * click on team for "Ninja" to view all members of that team
+21:14:25.949 Specifications:	1 executed	1 passed	0 failed	0 skipped
+21:14:25.950 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+21:14:25.950 
+Total time taken: 16.739s
